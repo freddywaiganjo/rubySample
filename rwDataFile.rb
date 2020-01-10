@@ -1,7 +1,9 @@
 require 'yaml'
+conf = YAML.load_file('./Configs/configs.yml')
+puts conf['log_file']
 class TestRWData
   def readWriteHere
-    #file_path = 'C:\Users\awaiganjo\Documents\PROJECTS\Cellulant\automation\RUBY\rubySample\dataFile.txt'
+    #file_path = './dataFile.txt'
     conf = YAML.load_file('./Configs/configs.yml')
     puts conf['log_file']
 #Read data from file(r)
