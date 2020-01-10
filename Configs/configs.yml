@@ -1,0 +1,5 @@
+excel_file: https://docs.google.com/spreadsheets/d/18TAySSV3grarpgZ7VD0iHrXknKVVWNkPHb3UKEWWf14/edit#gid=0
+log_file: C:\Users\awaiganjo\Documents\PROJECTS\Cellulant\automation\RUBY\rubySample\dataFile.txt'
+
+#This file, data can be created in hash format, data created in arrays and postions used to fetch values from the array
+#check, creating yaml file inform of array in ruby

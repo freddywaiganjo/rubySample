@@ -1,0 +1,2 @@
+We wrote data to file. Hurray!
+We Appended data to file. Thumbs up!

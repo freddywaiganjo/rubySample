@@ -4,6 +4,10 @@ require './variableFile'
 require './loopFile'
 require './arrayFile'
 require './stringFile'
+require './hashFile'
+require './rwDataFile'
+require './ModuleFile'
+require './inheritParent'
 
 obj = Testsample.new(10,2) # sending arguments to a constractor
 obj.Alexsample
@@ -49,3 +53,19 @@ ac.loopArray
 stc = Stringclass.new
 stc.trystrings
 
+#call readWrite data class
+rwdata = TestRWData.new
+rwdata.readWriteHere
+
+#call Module here
+ModuleFile::modmethod
+objjj = ModuleFile::ModClass.new
+objjj.classmethd
+
+#calling child and parent class
+# parent class can be called through child object as long as child class inherits from parent class
+# a method that exists in parent and child class with same name and params, ruby will execute the one in
+# child and ignore the one in parent. i.e Overriding
+cic = ChildClass.new
+cic.childmet
+cic.parentmet

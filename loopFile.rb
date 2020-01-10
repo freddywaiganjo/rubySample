@@ -5,7 +5,7 @@ class TestLoop
     end
   end
 
-  #break loop if the new multiple is divisible by 5
+  # break loop if the new multiple is divisible by 5
   def loopwithbreak(num)
     for j in 1..5
       k = j*num
@@ -19,7 +19,7 @@ class TestLoop
     puts('outside loop')
   end
 
-  #infinite loop with redo
+  # infinite loop with redo
   def loopredo(num)
     for i in 1..5
       if i>2
@@ -29,17 +29,17 @@ class TestLoop
       puts (i*num)
     end
   end
-  #while loop
+  # while loop
   def whileLoop(a)
     i = 1
     while i<= 6
       puts(a * i)
-      i = i+1 #not i++
+      i = i+1 # not i++
       puts('while loop::')
     end
   end
 
-  #until loop
+  # until loop
   def untilLoop
     i=1
     until i>8 do
@@ -49,7 +49,7 @@ class TestLoop
 
   end
 
-  #each loop
+  # each loop
   def eachLoop
     (1..4).each do |i|
       puts i
